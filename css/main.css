@@ -35,7 +35,7 @@
 
 body {
      color: #000;
-     font-size: 12px;
+     font-size: 14px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
      background-color: #0a6;
@@ -44,6 +44,8 @@ body {
 h1{
      text-align: center;
      font-size: 48px;
+     font-family: 'Slackey', cursive;
+     text-transform: uppercase;
 }
 
 p {
@@ -106,7 +108,7 @@ footer {
      transform:scale(1.5);
 }
 .selected,.matched{
-     background-image: url("http://www.milefoot.com/math/discrete/counting/images/cards.png");
+    background-image: url("http://www.milefoot.com/math/discrete/counting/images/cards.png");
     height:96px;
     width:71px;
 }
