@@ -68,13 +68,9 @@ header {
 
 footer {
      text-align: center;
-     margin-top: 200px;
-     margin-bottom: 25px;
-     position: absolute;
-     width: 100%;
-     right: 0;
-     bottom: 0;
-     left: 0;
+     margin-top: 300px;
+     position: relative;
+     clear: both;
 }
 
 /******************************************
@@ -125,3 +121,20 @@ footer {
 .three.selected,.three.matched{background-position:-147px -1px;}
 .two.selected,.two.matched{background-position:-74px -1px;}
 /*removed for symmetry .ace.selected,.ace.matched{background-position:-1px -1px;}*/
+
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 14px;
+  }
+  #container {
+    width: 100%;
+  }
+  #game {
+    width: 80%;
+  }
+}
